@@ -57,19 +57,19 @@ def get_type(typ):
     if typ == FKINDS.UNTYPFIL:
         return "UNTYPFIL"
     elif typ == FKINDS.XDSKFILE:
-        return "SECURDIR"
+        return "XDSKFILE"
     elif typ == FKINDS.CODEFILE:
-        return "SECURDIR"
+        return "CODEFILE"
     elif typ == FKINDS.TEXTFILE:
         return "TEXTFILE"
     elif typ == FKINDS.INFOFILE:
-        return "DATAFILE"
+        return "INFOFILE"
     elif typ == FKINDS.DATAFILE:
         return "DATAFILE"
     elif typ == FKINDS.GRAFFILE:
-        return "DATAFILE"
+        return "GRAFFILE"
     elif typ == FKINDS.FOTOFILE:
-        return "DATAFILE"
+        return "FOTOFILE"
     elif typ == FKINDS.SECURDIR:
         return "SECURDIR"
     elif typ == FKINDS.SEPARATR:
